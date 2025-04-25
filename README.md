@@ -10,6 +10,7 @@ Objectif : se connecter à AWS et manipuler un serveur
     Lance une instance EC2 t2.micro (Ubuntu)
 
         Connecte-toi en SSH
+        # ssh -i "aws.pem" ubuntu@ec2-13-38-81-35.eu-west-3.compute.amazonaws.com
 
         Installe htop, docker, python
 
@@ -77,7 +78,7 @@ Objectif : commencer à automatiser l'envoi de données
 
     Stocke une copie de ces points dans S3 toutes les heures
 
-➡️ Tu construis ton propre pipeline cloud perso
+➡️ Tu construis ton propre pipeline cloud perso 
 🔹 Étape 6 — Exploration bonus
 
 Quand tu seras à l’aise :
